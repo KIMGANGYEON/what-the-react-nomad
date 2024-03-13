@@ -69,7 +69,7 @@ function App() {
           {filteredCoins.map((coin, index) => (
             <option key={index}>
               {coin.name} ({coin.symbol}): ${Math.round(coin.quotes.USD.price)}{" "}
-              USD
+              USDD
             </option>
           ))}
         </select>
